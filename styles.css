@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+body{
+    background-color: #f3f3e7c1;
+    font-family: 'Forum', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: orange;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+}
+ 
+.avatar {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 25);
+}
+
+.info {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 35px;
+}
+
+@media (max-width: 430px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card {
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.bg-yellow {
+    background: #f9f5ae34;
+    border: 2px solid #f9f5ae;
+    box-shadow: 4px 4px 20px #f9f5aea0;
+}
+
+.bg-green {
+    background-color: #9eb7733a;
+    border: 2px solid #9eb773;
+    box-shadow: 4px 4px 20px #9eb773b3;
+}
+
+.bg-blue {
+    background-color: #cddbdc54;
+    border: 2px solid #cddbdc;
+    box-shadow: 4px 4px 20px #cddbdcc8;
+}
+
+.list {
+    padding: 0 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.contacts {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    font-size: 20px;
+}
+
+.Sagol {
+    text-align: center;
+}
+
+.Pod {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: underline;    
+}
+
+.PodSagol {
+    text-align: left;
+    color: #272d5d;
+}
+
+.PodSagol-Cards {
+    text-align: center;
+    color: #272d5d;
+}
